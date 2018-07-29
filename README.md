@@ -17,7 +17,7 @@ git push -u origin master
 # Setting your Git username for every repository on your computer
 Open Terminal
 
-$ git config --global user.name "<username>"
+$ git config --global user.name "myusername"
 
 Verify
 
@@ -31,7 +31,7 @@ Change the current working directory to the local repository where you want to c
 
 Set a Git Username
 
-$ git config user.name "<username>"
+$ git config user.name "myusername"
 
 
 # Creating a local branch
