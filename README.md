@@ -14,6 +14,14 @@ git remote add origin https://github.com/RohitK0608/git-commands.git
 
 git push -u origin master
 
+# Listing all the configurations for a repository
+
+Open Terminal
+
+Change the current working directory to the local repository where you want to configure the name that is associated with your Git commits.
+
+$ git config --list
+
 # Setting your Git username & email for every repository on your computer
 Open Terminal
 
