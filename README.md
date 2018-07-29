@@ -1,4 +1,4 @@
-# git-commands
+# Git-commands start up
 Some Useful Git commands for developers
 
 # Creating a new Repo from command line
