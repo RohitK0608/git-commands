@@ -14,14 +14,19 @@ git remote add origin https://github.com/RohitK0608/git-commands.git
 
 git push -u origin master
 
-# Setting your Git username for every repository on your computer
+# Setting your Git username & email for every repository on your computer
 Open Terminal
 
 $ git config --global user.name "myusername"
 
+$ git config --global user.email "myemail@example.com"
+
+
 Verify
 
 $ git config --global user.name
+
+$ git config --global user.email
 
 
 # Setting your Git username for a single repository
@@ -29,9 +34,10 @@ Open Terminal
 
 Change the current working directory to the local repository where you want to configure the name that is associated with your Git commits.
 
-Set a Git Username
-
 $ git config user.name "myusername"
+
+$ git config user.email "myemail@example.com"
+
 
 
 # Creating a local branch
