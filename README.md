@@ -50,3 +50,6 @@ $ git config user.email "myemail@example.com"
 
 # Creating a local branch
 git checkout -b feature/feature-one
+
+# Command to clean all untracked files
+git clean -f -d
