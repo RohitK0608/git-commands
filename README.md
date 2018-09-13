@@ -53,3 +53,9 @@ git checkout -b feature/feature-one
 
 # Command to clean all untracked files
 git clean -f -d
+
+# Command for Conflict resolution using git force pull
+git fetch origin master
+git reset --hard origin/master
+
+Replace master with specific branch
