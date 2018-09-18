@@ -46,8 +46,6 @@ $ git config user.name "myusername"
 
 $ git config user.email "myemail@example.com"
 
-
-
 # Creating a local branch
 git checkout -b feature/feature-one
 
@@ -60,3 +58,7 @@ git fetch origin master
 git reset --hard origin/master
 
 Replace master with specific branch
+
+# Downmerge feature branch to development merge
+
+
